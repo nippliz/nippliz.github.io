@@ -1,0 +1,18 @@
+@media (max-width: 910px) {
+    .container {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #bgimage {
+        position: absolute;
+        z-index: -1;
+        width: 90%;
+        height: 90%;
+        top: -100px;
+    }
+
+    .textblock {
+        margin-top: 350px;
+    }
+}

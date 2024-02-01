@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web dev & diz // nippliz</title>
+    <link rel="icon" href="img/Logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/media.css">
 </head>
+
 <body>
-    
+    <header>
+        <div class="header">
+            <div class="logo"><a href="#!"><img src="img/Logo-full.svg" alt="Logo"></a></div>
+            <nav class="nav">
+                <button class="lang">en</button>
+                <button class="burger"><img src="img/menu.svg" alt="burger menu"></button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="textblock">
+                <div class="block hello">
+                    <h1>Web creator <br> Dima Isaev</h1>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="196" height="2" viewBox="0 0 196 2" fill="none">
+                        <path d="M0 1H196" stroke="white" stroke-linejoin="round" />
+                    </svg>
+                    <p class="colored">Check buttons below ↓</p>
+                </div>
+                <div class="block button">
+                    <img src="img/preview.svg" alt="projects button">
+                    <h2>projects</h2>
+                    <img src="img/arrow.svg" alt="arrow">
+                </div>
+                <div class="block button">
+                    <img src="img/resume.svg" alt="resume button">
+                    <h2>resume</h2>
+                    <img src="img/arrow.svg" alt="arrow">
+                </div>
+                <div class="block button">
+                    <img src="img/experiment.svg" alt="lab button">
+                    <h2>lab</h2>
+                    <img src="img/arrow.svg" alt="arrow">
+                </div>
+            </div>
+            <div id="bgimage"></div>
+        </div>
+    </main>
+
+    <script src="script/lottie.js"></script>
+    <script src="script/main.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,125 @@
+@import "./reset.css";
+
+* {
+    font-family: "Inter", sans-serif;
+    font-size: 8px;
+    font-style: normal;
+    line-height: 100%;
+}
+
+body {
+    background-color: #151515;
+    color: #F1F1F1;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    max-width: 1440px;
+    min-width: 512px;
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#bgimage {
+    width: 50%;
+    height: 50%;
+}
+
+/* Header */
+
+header {
+    padding: 0 5%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 64px;
+    max-width: 1440px;
+    /* min-width: 512px; */
+    height: 100px;
+    padding: 0 40px;
+    margin: 0 auto;
+    border-radius: 0px 0px 24px 24px;
+    background: rgba(45, 45, 45, 0.20);
+    backdrop-filter: blur(25px);
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.lang {
+    display: inline-flex;
+    padding: 12px 10px 12px 9px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: rgba(45, 45, 45, 0.20);
+    backdrop-filter: blur(25px);
+    font-size: 3em;
+}
+
+.burger {
+    width: 48px;
+    height: 48px;
+    background-size: cover;
+    display: inline;
+}
+
+/* Content block */
+
+.textblock {
+    margin-top: 64px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 24px;
+    background: rgba(45, 45, 45, 0.20);
+    backdrop-filter: blur(25px);
+    padding: 24px 28px;
+    margin-top: 40px;
+    max-width: 480px;
+    width: auto;
+}
+
+.block.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+}
+
+h1 {
+    font-size: 6em;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 6em;
+    font-weight: 600;
+    text-align: center;
+}
+
+p {
+    font-size: 3em;
+}
+
+p.colored {
+    color: #4E9F3D;
+}
